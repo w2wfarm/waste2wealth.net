@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Waste2Wealth [W2W]</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5fdf5; }
+        header { background: #2e7d32; color: white; padding: 20px; text-align: center; }
+        nav { background: #a5d6a7; padding: 10px; text-align: center; }
+        nav a { margin: 0 15px; color: #1b5e20; text-decoration: none; font-weight: bold; }
+        section { padding: 20px; }
+        footer { background: #2e7d32; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+        form { display: flex; flex-direction: column; max-width: 400px; margin: auto; }
+        input, textarea { margin-bottom: 10px; padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+        button { padding: 10px; background: #2e7d32; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us - Waste2Wealth [W2W]</h1>
+        <p>We would love to hear from you</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="donate.html">Donate</a>
+        <a href="team.html">Team</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Get In Touch</h2>
+        <p><strong>Address:</strong> Syadrit Village, Umsning, Ri-Bhoi District, Meghalaya</p>
+        <p><strong>Phone:</strong> 9612919371</p>
+        <p><strong>Email:</strong> contact@waste2wealth.in (Coming Soon)</p>
+
+        <h3>Send us a message</h3>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2025 Waste2Wealth. All Rights Reserved.
+    </footer>
+</body>
+</html>
